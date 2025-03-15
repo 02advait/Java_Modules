@@ -19,7 +19,7 @@ public class TypeConversion {
         System.out.println("float: " + f);     // Prints the float value
         System.out.println("Num int: " + Num); // Prints the int value after type casting
     }
-
+ 
     // Another method to demonstrate type conversion
     public static void main1(String[] args) {
 
@@ -28,12 +28,14 @@ public class TypeConversion {
 
         // Explicit Type Casting: Converting double to long (Decimal part is lost)
         long Num1 = (long) d;  // Type casting double to long (Truncates decimal)
-
+   
         // Printing the converted long value
         System.out.println("Double to long: " + Num1);
     }
 }
 
 
+
+ 
 
 
